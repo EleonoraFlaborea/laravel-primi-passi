@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view ('home');
 });
+
+Route::get('/works', function () {
+    return view ('work');
+});
+
+Route::get('/contacts', function () {
+    return view ('contact');
+});
+
+Route::get('/portfolio', function () {
+    return view ('portfolio');
+});
